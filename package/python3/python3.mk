@@ -89,6 +89,7 @@ PYTHON3_CONF_OPTS += --disable-sqlite3
 endif
 
 ifeq ($(BR2_PACKAGE_PYTHON3_SSL),y)
+PYTHON3_CONF_OPTS += --with-ssl
 PYTHON3_DEPENDENCIES += openssl
 endif
 
