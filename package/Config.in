@@ -332,6 +332,10 @@ comment "X window managers"
 	source "package/openbox/Config.in"
 endmenu
 
+menu "CHIP specific"
+	source "package/hwtest/Config.in"
+endmenu
+
 menu "Hardware handling"
 menu "Firmware"
 	source "package/am33x-cm3/Config.in"
@@ -1628,6 +1632,10 @@ endif
 	source "package/rpcbind/Config.in"
 	source "package/rsh-redone/Config.in"
 	source "package/rsync/Config.in"
+	source "package/rtl8723bs_bt/Config.in"
+	source "package/rtl8723bs/Config.in"
+	source "package/rtl8723bs_mp_driver/Config.in"
+	source "package/rtl8723ds_mp_driver/Config.in"
 	source "package/rtorrent/Config.in"
 	source "package/rtptools/Config.in"
 	source "package/samba4/Config.in"
